@@ -1,0 +1,36 @@
+.container__buttons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 641px;
+    height: 96px;
+    margin-top: 25px;
+    gap: 26px;
+}
+
+
+button{
+    cursor: pointer;
+    color: var(--color-grey-3);
+    font-size: var(--font-3);
+    font-weight: var(--weigth-1);
+    padding: 2px 13px;
+    width: 85px;
+    border-radius: var(--radius-1);
+    border: 1px solid var(--color-grey-8);
+    background: var(--color-grey-8);
+}
+
+.active{
+    color: var(--color-grey-3);
+    border: 1px solid var(--color-grey-1);
+    background: var(--color-grey-1);
+    color: var(--color-white-fixed); 
+}
+
+button:hover{
+    color: var(--color-grey-3);
+    border: 1px solid var(--color-grey-1);
+    background: var(--color-grey-1);
+    color: var(--color-white-fixed);
+}

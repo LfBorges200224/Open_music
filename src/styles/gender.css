@@ -1,0 +1,22 @@
+.gender__container{
+    margin-top: 20px;
+    list-style: none;  
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 641px;
+    height: 139px;
+}
+
+.container__li{
+    width: 640px;
+    height: 19px;
+}
+
+
+.title__gender{
+    
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+}

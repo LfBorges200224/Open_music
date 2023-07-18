@@ -1,0 +1,33 @@
+.container__range{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 641px;
+    height: 67px;
+}
+
+.contaier__prices{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 641px;
+    height: 30px;
+}
+
+.choose__price{
+    font-size: var(--font-3);
+    font-weight: var(--weigth-2);
+}
+
+.difine__number{
+    font-size: var(--font-2);
+    font-weight: var(--weigth-2);
+}
+
+input{
+    width: 641px;
+    height: 8px;
+    margin-top: 20px;
+}
